@@ -179,7 +179,7 @@ window.onscroll = () => {
                                     <a class="nav-link navbar-item active" aria-current="page" href="homepage.php">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link navbar-item" href="#">Trips</a>
+                                    <a class="nav-link navbar-item" href="trips.php">Trips</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link navbar-item" href="addFeedback.php">Feedback</a>

@@ -34,11 +34,11 @@ if(isset($_POST['email']) && isset($_POST['password']) )
             }
             if($_SESSION["userRole"]=="Admin")
             {
-                header("Location:View/addFeedback.php");
+                header("Location:View/homepage.php");
             }
             else//($_SESSION["userRole"]=="client")
             {
-                header("Location:Views/addFeedback.php");
+                header("Location:Views/homepage.php");
             }
            
 
