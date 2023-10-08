@@ -4,7 +4,7 @@ include_once 'nav.php';
 
 <div class="container">
 <br>
-    <h2 style="text-align: center; color: white;">space activities</h2>
+    <h2 style="text-align: center; color: white;">space trips</h2>
     <br>
    <div class="row">
     <div class="col-6">
@@ -38,7 +38,7 @@ include_once 'nav.php';
             <p class="card-text text-light" style="font-size: smaller;">The highest mountain and volcano in the Solar System is on the planet Mars.</p>
             
             
-            <button type="button" class="btn btn-primary" style=" margin-left: 200px; ">Book Now!</button>
+            <a href="ticket.php" class="btn btn-primary" style=" margin-left: 200px; ">Book Now!</a>
           </div>
         </div>
         
