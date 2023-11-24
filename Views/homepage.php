@@ -13,7 +13,7 @@ include_once 'nav.php';
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
   </div>
-  <div class="carousel-inner bg-slide-img">
+  <div class="carousel-inner">
     <div class="carousel-item active">
     <div class="row">
         <div class="col-4">
@@ -21,7 +21,7 @@ include_once 'nav.php';
       </div>
       <div class="col-6 d-flex justify-content-center flex-column">
       <p class="text-center txt">Mercury is the smallest and closest planet to the Sun in the Solar System.It has a rocky surface and no atmosphere to retain heat, causing extreme temperature variations.It has a rocky surface and no atmosphere to retain heat, causing extreme temperature variations.</P>
-        <div><a href="#mer" class="btn btn-primary">Learn More</a></div>
+        <div><button class="btn btn-primary" onclick="scrollAndAddClass('collapseMercury' , 'mer')"> Learn More </button></div>
         </div>
     </div>
       <div class="carousel-caption d-none d-md-block">
@@ -36,7 +36,7 @@ include_once 'nav.php';
       </div>
       <div class="col-6 d-flex justify-content-center flex-column">
       <p class="text-center txt">Venus is the second planet from the Sun and is often referred to as Earth's "sister planet".It has a thick atmosphere primarily composed of carbon dioxide, making it the hottest planet in our solar system.</P>
-        <div><a href="#ven" class="btn btn-primary">Learn More</a></div>
+        <div><button class="btn btn-primary" onclick="scrollAndAddClass('collapseVenus' , 'ven')"> Learn More </button></div>
         </div>
     </div>
       <div class="carousel-caption d-none d-md-block">
@@ -51,7 +51,7 @@ include_once 'nav.php';
       </div>
       <div class="col-6 d-flex justify-content-center flex-column">
       <p class="text-center txt">Mars is the fourth planet from the Sun and is often called the "Red Planet" due to its reddish appearance.It has a thin atmosphere and is known for its surface features, including volcanoes, canyons, and polar ice caps.</P>
-        <div><a href="#mars" class="btn btn-primary">Learn More</a></div>
+        <div><button class="btn btn-primary" onclick="scrollAndAddClass('collapseMars' , 'mars')"> Learn More </button></div>
         </div>
     </div>
       <div class="carousel-caption d-none d-md-block">
@@ -66,7 +66,7 @@ include_once 'nav.php';
       </div>
       <div class="col-6 d-flex justify-content-center flex-column">
       <p class="text-center txt">Jupiter is the largest planet in our solar system and is known for its swirling clouds and distinctive red spot.It is a gas giant with a strong magnetic field and numerous moons, including the four large Galilean moons.</P>
-        <div><a href="#jup" class="btn btn-primary">Learn More</a></div>
+        <div><button class="btn btn-primary" onclick="scrollAndAddClass('collapseJupiter' , 'jup')"> Learn More </button></div>
         </div>
     </div>
       <div class="carousel-caption d-none d-md-block">
@@ -81,7 +81,7 @@ include_once 'nav.php';
       </div>
       <div class="col-6 d-flex justify-content-center flex-column">
       <p class="text-center txt">Saturn is a gas giant known for its prominent ring system, which consists of ice particles and dust.It is the second-largest planet in our solar system and has numerous moons, including Titan, the largest.</P>
-        <div><a href="#sat" class="btn btn-primary">Learn More</a></div>
+        <div><button class="btn btn-primary" onclick="scrollAndAddClass('collapseSaturn' , 'sat')"> Learn More </button></div>
         </div>
     </div>
       <div class="carousel-caption d-none d-md-block">
@@ -96,7 +96,7 @@ include_once 'nav.php';
       </div>
       <div class="col-6 d-flex justify-content-center flex-column">
       <p class="text-center txt">Uranus is the seventh planet from the Sun and is considered an ice giant because it is largely made up of water, ammonia, and methane in solid form.</P>
-        <div><button type="button" class="btn btn-primary">Learn More</button></div>
+        <div><button class="btn btn-primary" onclick="scrollAndAddClass('collapseVenus' , 'ven')"> Learn More </button></div>
         </div>
     </div>
       <div class="carousel-caption d-none d-md-block">
@@ -111,7 +111,7 @@ include_once 'nav.php';
       </div>
       <div class="col-6 d-flex justify-content-center flex-column">
       <p class="text-center txt">The eighth planet from the Sun, Neptune is considered an ice giant because it is largely made up of water, ammonia, and methane in solid form.</P>
-        <div><button type="button" class="btn btn-primary">Learn More</button></div>
+        <div><button class="btn btn-primary" onclick="scrollAndAddClass('collapseVenus' , 'ven')"> Learn More </button></div>
         </div>
     </div>
       <div class="carousel-caption d-none d-md-block">
@@ -199,7 +199,6 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
           </h5>
         </div>
         <div id="collapseEarth" class="collapse" aria-labelledby="headingEarth" data-parent="#accordionExample">
-          <div class```html
             <div class="card-body">
             <div class="row">
               <div class="col-md-4">
@@ -214,9 +213,11 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
                 <button class="btn btn-primary follow-btn">Follow this planet</button>
               </div>
             </div>
+</div>
           </div>
         </div>
       </div>
+
 
       <!-- Mars -->
       <div class="card card-st" id="mars">
@@ -226,7 +227,7 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
             Mars
           </h5>
         </div>
-        <div id="collapseMars" class="collapse show" aria-labelledby="headingMars" data-parent="#accordionExample">
+        <div id="collapseMars" class="collapse" aria-labelledby="headingMars" data-parent="#accordionExample">
           <div class="card-body">
             <div class="row">
               <div class="col-md-4">
@@ -289,11 +290,9 @@ Jupiter has at least 79 known moons, which were drawn by the massive planet's st
             <div class="row">
             <div class="col-md-4">
                 <img src="../Media/ded28fed-ec42-4151-b665-46fa4ad6d1ed.jpg" alt="Saturn" style="max-width: 100%;">
-              </div>
+            </div>
               <div class="col-md-8">
-                <p>Saturn is the sixth planet from the Sun and the second largest in our solar system. Like all the other planets, Saturn was likely formed in the large cloud of gas, dust, and ice which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.
-
-Saturn is best known for its impressive rings, which are about 20 metres thick on average. Some scientists believe that the planet's icy rings are made of material left over from a massive collision between the young planet and one of its early moons.</p>
+                <p>Saturn is the sixth planet from the Sun and the second largest in our solar system. Like all the other planets, Saturn was likely formed in the large cloud of gas, dust, and ice which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc. Saturn is best known for its impressive rings, which are about 20 metres thick on average. Some scientists believe that the planet's icy rings are made of material left over from a massive collision between the young planet and one of its early moons.</p>
                 <div class="rating">
                     <span>&#9733;&#9733;&#9733;&#9734;&#9734;</span>
                 </div>
@@ -303,3 +302,9 @@ Saturn is best known for its impressive rings, which are about 20 metres thick o
           </div>
         </div>
       </div>
+</div>
+
+
+<div class="fe-about ptop pb">
+
+</div>
