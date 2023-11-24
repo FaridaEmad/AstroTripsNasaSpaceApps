@@ -35,7 +35,7 @@ if(isset($_POST["tripId"]) && isset($_POST["tripName"]) &&  isset($_POST["feedca
 }
 
 ?>
-<div class="card card-center" id="loginForm" style="width: 400px;">
+<div class="card-st card-center" id="loginForm" style="width: 400px;">
     <div class="card-body">
 <form method="post" action="index.php" >
         <div class="form-group">
