@@ -37,7 +37,7 @@ if(isset($_POST["tripId"]) && isset($_POST["tripName"]) &&  isset($_POST["feedca
 ?>
 <div class="card-st card-center" id="loginForm" style="width: 400px;">
     <div class="card-body">
-<form method="post" action="index.php" >
+<form method="post" action="homepage.php" >
         <div class="form-group">
                     <label for="registerName">Trip Id:</label>
                     <input type="text" id="registerName" class="form-control" name="tripId"/>
