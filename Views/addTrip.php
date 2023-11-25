@@ -39,28 +39,20 @@ if(isset($_POST["tripId"]) && isset($_POST["tripName"]) &&  isset($_POST["feedca
     <div class="card-body">
 <form method="post" action="homepage.php" >
         <div class="form-group">
-                    <label for="registerName">Trip Id:</label>
+                    <label for="registerName">Trip Name:</label>
                     <input type="text" id="registerName" class="form-control" name="tripId"/>
                 </div>
                 <div class="form-group">
-                    <label for="registerName">Trip Name:</label>
+                    <label for="registerName">Price:</label>
                     <input type="text" id="registerName" class="form-control" name="tripName"/>
                 </div>
                 <div class="form-group">
-                    <label for="registerName">Feedback</label>
+                    <label for="registerName">Duration:</label>
                     <input type="textarea" id="registerName" class="form-control" name="feedcack"/>
                 </div>
-                <div class="stars">
-                    <input type="radio" id="star5" name="rating"  />
-                    <label for="star5"><i class="fas fa-star"></i></label>
-                    <input type="radio" id="star4" name="rating" />
-                    <label for="star4"><i class="fas fa-star"></i></label>
-                    <input type="radio" id="star3" name="rating"  />
-                    <label for="star3"><i class="fas fa-star"></i></label>
-                    <input type="radio" id="star2" name="rating"  />
-                    <label for="star2"><i class="fas fa-star"></i></label>
-                    <input type="radio" id="star1" name="rating" />
-                    <label for="star1"><i class="fas fa-star"></i></label>
+                <div class="form-group">
+                    <label for="registerName">Description:</label>
+                    <input type="textarea" id="registerName" class="form-control" name=""/>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block" name="Add">Submit</button>
           </div>

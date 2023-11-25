@@ -131,7 +131,7 @@ include_once 'nav.php';
 </div>
 
 
-<div class="container ptop ">
+<div class="container ptop fepdbot">
     <h2 class="text-light">Planets in Our Solar System</h2>
     <div class="accordion" id="accordionExample">
       <!-- Mercury -->
@@ -305,6 +305,11 @@ Jupiter has at least 79 known moons, which were drawn by the massive planet's st
 </div>
 
 
-<div class="fe-about ptop pb">
-
+<div class="fe-about card-st p-5">
+  <h1 class="text-center">About Us</h1>
+  <p class="text-ccenter text">AstroTrips is a pioneering space travel company that has revolutionized the concept of exploration by offering exhilarating journeys beyond our planet. Specializing in space tourism, AstroTrips provides unprecedented opportunities for individuals to experience the awe-inspiring beauty of outer space. With cutting-edge spacecraft and a commitment to passenger safety, the company enables adventurers to embark on unforgettable voyages, allowing them to witness Earth from the unique vantage point of space. AstroTrips combines innovation, expertise, and a passion for space exploration to make the dream of venturing beyond our atmosphere a reality for those seeking the ultimate travel adventure. As a trailblazer in the emerging space tourism industry, AstroTrips continues to push the boundaries of what is possible, inspiring a new era of cosmic exploration and opening up the wonders of the universe to an eager and adventurous clientele.</p>
 </div>
+
+<?php
+include_once 'footer.php';
+?>

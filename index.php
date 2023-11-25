@@ -38,7 +38,7 @@ if(isset($_POST['email']) && isset($_POST['password']) )
             }
             else//($_SESSION["userRole"]=="client")
             {
-                header("Location:Views/homepage.php");
+                header("Location:Views/addtrip.php");
             }
            
 
@@ -88,15 +88,6 @@ if(isset($_POST['email']) && isset($_POST['password']) )
   }
     </style>
     <script>
-const navbar = document.querySelector('.nav-fixed');
-window.onscroll = () => {
-    if (window.scrollY > 100) {
-        navbar.classList.add('nav-active');
-    } else {
-        navbar.classList.remove('nav-active');
-    }
-};
-
         $(document).ready(function() {
           // Show login form and hide register form
           $('#signInLink').click(function() {
@@ -144,7 +135,7 @@ window.onscroll = () => {
         <section class="main">
 
 
-<div class="card card-center" id="loginForm" style="width: 400px;">
+<div class="card card-st fe-card" id="loginForm" style="width: 400px;">
         <div class="card-body">
             <h5 class="card-title text-center">Login</h5>
             <form method="post" action="index.php">
@@ -182,7 +173,7 @@ window.onscroll = () => {
     </div>
 
     <!-- Register form -->
-    <div class="card card-center" id="registerForm" style="display: none; width: 400px;">
+    <div class="card card-st fe-card" id="registerForm" style="display: none; width: 400px;">
         <div class="card-body">
             <h5 class="card-title text-center">Register</h5>
             <form>
@@ -427,7 +418,27 @@ window.onscroll = () => {
             </form>
         </div>
     </div>
-
-<?php
-include_once 'Views/footer.php'
-?>
+    </section>
+<footer class="text-light text-center feshadow">
+  <div class="container p-4">
+    <div class="mb-4">
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="mb-4">
+      <p>
+        AstroTrips we are waiting for you. We are happy that you are a member in our big family
+      </p>
+    </div>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2023 Copyright:
+    <a class="text-light" href="/">AstroTrips</a>
+  </div>  
+</footer>
+<script src="Js/script.js"></script>
+</body>
