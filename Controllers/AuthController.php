@@ -45,13 +45,14 @@ class AuthController
                     $_SESSION["nationality"]=$result[0]["nationality"];
                     $_SESSION["mobile_number"]=$result[0]["mobile_number"];
                     $_SESSION["profile_photo"]=$result[0]["profile_photo"];
-                    if($result[0]["role_id"]==true)
+
+                    if($result[0]["admin"] == "Client")
                     {
-                        $_SESSION["userRole"]="Admin";
+                        $_SESSION["admin"]="Client";
                     }
-                    elseif($result[0]["role_id"]==false)
+                    else
                     {
-                        $_SESSION["userRole"]="client";
+                        $_SESSION["admin"]="Admin";
                     }
                     
                     $this->db->closeConnection();

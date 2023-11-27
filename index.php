@@ -32,13 +32,13 @@ if(isset($_POST['email']) && isset($_POST['password']) )
             {
                 session_start();
             }
-            if($_SESSION["userRole"]=="Admin")
+            if($_SESSION["admin"] == "Admin")
             {
-                header("Location:View/homepage.php");
+                header("Location:Views/addTrip.php");
             }
-            else//($_SESSION["userRole"]=="client")
+            else
             {
-                header("Location:Views/addtrip.php");
+                header("Location:Views/homepage.php");
             }
            
 
@@ -107,10 +107,10 @@ if(isset($_POST['email']) && isset($_POST['password']) )
         <header>
             <nav class="navbar fixed-top nav-fixed navbar-expand-lg navbar-dark ">
                 <div class="container-fluid">
-                    <div class="col-9 pd-left">
+                    <div class="col-8 pd-left">
                         <a class="navbar-brand nav-title nav-icon" href="#"><img src="Media/Fiverr-Logo-Maker (1).png" alt="logo" class="logo">AstroTrips</a>
                     </div>
-                    <div class="col-2 nav-menu">
+                    <div class="col-4 nav-menu">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -121,6 +121,9 @@ if(isset($_POST['email']) && isset($_POST['password']) )
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link navbar-item" href="#">Trips</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-item" href="trips.php" >Activities&Transportation</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link navbar-item" href="#">Feedback</a>

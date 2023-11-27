@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
+    <script> 
         $(document).ready(function() {
           // Show login form and hide register form
           $('#signInLink').click(function() {
@@ -49,10 +49,10 @@
         <header>
             <nav class="navbar fixed-top nav-fixed navbar-expand-lg navbar-dark ">
                 <div class="container-fluid">
-                    <div class="col-9 pd-left">
+                    <div class="col-8 pd-left">
                         <a class="navbar-brand nav-title nav-icon" href="#"><img src="../Media/Fiverr-Logo-Maker (1).png" alt="logo" class="logo">AstroTrips</a>
                     </div>
-                    <div class="col-2 nav-menu">
+                    <div class="col-4 nav-menu">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -62,7 +62,10 @@
                                     <a class="nav-link navbar-item active" aria-current="page" href="homepage.php">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link navbar-item" href="trips.php">Trips</a>
+                                    <a class="nav-link navbar-item" href="trips.php" > Trips</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-item" href="trips.php" >Activities&Transportation</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link navbar-item" href="addFeedback.php">Feedback</a>
@@ -75,4 +78,4 @@
               </nav>
         </header>
         <section class="main">
-
+<?php echo $_SESSION["admin"]; ?>
