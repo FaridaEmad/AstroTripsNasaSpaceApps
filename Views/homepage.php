@@ -137,7 +137,7 @@ include_once 'nav.php';
       <!-- Mercury -->
       <div class="card card-st" id="mer">
         <div class="card-header" id="headingMercury">
-          <h5 class="mb-0">
+          <h5 class="text-light mb-0">
             <span class="arrow" data-toggle="collapse" data-target="#collapseMercury" aria-expanded="false" aria-controls="collapseMercury">&#9662;</span>
             Mercury
           </h5>
@@ -165,7 +165,7 @@ Mercury is the closest planet to the Sun, which likely influenced its compositio
       <!-- Venus -->
       <div class="card card-st" id="ven">
         <div class="card-header" id="headingVenus">
-          <h5 class="mb-0">
+          <h5 class="text-light mb-0">
             <span class="arrow" data-toggle="collapse" data-target="#collapseVenus" aria-expanded="false" aria-controls="collapseVenus">&#9662;</span>
             Venus
           </h5>
@@ -193,7 +193,7 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
       <!-- Earth -->
       <div class="card card-st" id="ear">
         <div class="card-header" id="headingEarth">
-          <h5 class="mb-0">
+          <h5 class="text-light mb-0">
             <span class="arrow" data-toggle="collapse" data-target="#collapseEarth" aria-expanded="false" aria-controls="collapseEarth">&#9662;</span>
             Earth
           </h5>
@@ -222,7 +222,7 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
       <!-- Mars -->
       <div class="card card-st" id="mars">
         <div class="card-header" id="headingMars">
-          <h5 class="mb-0">
+          <h5 class="text-light mb-0">
             <span class="arrow" data-toggle="collapse" data-target="#collapseMars" aria-expanded="true" aria-controls="collapseMars">&#9662;</span>
             Mars
           </h5>
@@ -250,7 +250,7 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
       <!-- Jupiter -->
       <div class="card card-st" id="jup">
         <div class="card-header" id="headingJupiter">
-          <h5 class="mb-0">
+          <h5 class="text-light mb-0">
             <span class="arrow" data-toggle="collapse" data-target="#collapseJupiter" aria-expanded="false" aria-controls="collapseJupiter">&#9662;</span>
             Jupiter
           </h5>
@@ -280,7 +280,7 @@ Jupiter has at least 79 known moons, which were drawn by the massive planet's st
       <!-- Saturn -->
       <div class="card card-st" id="sat">
         <div class="card-header" id="headingSaturn">
-          <h5 class="mb-0"> 
+          <h5 class="text-light mb-0"> 
             <span class="arrow" data-toggle="collapse" data-target="#collapseSaturn" aria-expanded="false" aria-controls="collapseSaturn">&#9662;</span>
             Saturn
           </h5>
