@@ -34,7 +34,7 @@ if(isset($_POST['email']) && isset($_POST['password']) )
             }
             if($_SESSION["admin"] == "Admin")
             {
-                header("Location:Views/addTrip.php");
+                header("Location:Views/Dashbord.html");
             }
             else
             {
