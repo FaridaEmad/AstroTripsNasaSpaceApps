@@ -1,7 +1,6 @@
 <?php
 include_once 'nav.php';
 ?>
-
 <div class="container" id="pdf">
     <div class="row justify-content-center">
         <div class="col-md-6">
@@ -11,8 +10,9 @@ include_once 'nav.php';
                 </div>
                 <div class="ticket-info">
                     <img src="img/DreamShaper_v7_Ancient_lava_flowsrealistic_travelling_betwee_0.jpg" alt="Planet" class="planet-image">
+
                     <span class="text-light">Traveller:</span>
-                    <span class="ticket-info-value">Shahd Sharaf</span>
+                    <span class="ticket-info-value">Karim Adel</span>
                 </div>
                 <hr class="ticket-line">
                 <div class="ticket-info">
@@ -37,7 +37,7 @@ include_once 'nav.php';
                 <hr class="ticket-line">
                 <div class="ticket-info">
                     <span class="text-light">User ID:</span>
-                    <span class="ticket-info-value">136667</span>
+                    <span class="ticket-info-value">567891</span>
                 </div>
                 <hr class="ticket-line">
                 <div class="ticket-info">
@@ -45,7 +45,7 @@ include_once 'nav.php';
                     <span class="ticket-info-value">78936</span>
                 </div>
                 <div class="ticket-id">
-                    Ticket ID: 345678
+                    Ticket ID: 112233
                 </div>
                 <img src="img/qrcode_78880173_042c33207256eb61df7af8b6b52c48b8.png" class="qr-code">
                 <div class="ticket-destination">
@@ -71,13 +71,12 @@ include_once 'nav.php';
     mywindow.document.write(document.getElementById(divId).innerHTML);
     mywindow.document.write('</body></html>');
     mywindow.document.close(); 
-    mywindow.focus();
+    mywindow.focus(); 
     mywindow.print();
     mywindow.close();
     return true;
         }
 </script>
-
 <?php
 include_once 'footer.php';
 ?>

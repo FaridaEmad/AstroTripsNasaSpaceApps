@@ -10,9 +10,9 @@ include_once 'nav.php';
                     <h2 class="ticket-title">AstroTrips Ticket</h2>
                 </div>
                 <div class="ticket-info">
-                    <img src="img/DreamShaper_v7_Ancient_lava_flowsrealistic_travelling_betwee_0.jpg" alt="Planet" class="planet-image">
+                    <img src="img/ticket2.jpeg" alt="Planet" class="planet-image">
                     <span class="text-light">Traveller:</span>
-                    <span class="ticket-info-value">Shahd Sharaf</span>
+                    <span class="ticket-info-value">Farida Emad</span>
                 </div>
                 <hr class="ticket-line">
                 <div class="ticket-info">
@@ -32,24 +32,24 @@ include_once 'nav.php';
                 <hr class="ticket-line">
                 <div class="ticket-info">
                     <span class="text-light">Trip Name:</span>
-                    <span class="ticket-info-value">Ancient lava flowsre Exploration</span>
+                    <span class="ticket-info-value">Skating on Saturn</span>
                 </div>
                 <hr class="ticket-line">
                 <div class="ticket-info">
                     <span class="text-light">User ID:</span>
-                    <span class="ticket-info-value">136667</span>
+                    <span class="ticket-info-value">293003</span>
                 </div>
                 <hr class="ticket-line">
                 <div class="ticket-info">
                     <span class="text-light">Trip ID:</span>
-                    <span class="ticket-info-value">78936</span>
+                    <span class="ticket-info-value">10987</span>
                 </div>
                 <div class="ticket-id">
-                    Ticket ID: 345678
+                    Ticket ID: 332211
                 </div>
                 <img src="img/qrcode_78880173_042c33207256eb61df7af8b6b52c48b8.png" class="qr-code">
                 <div class="ticket-destination">
-                    Destination: Mars
+                    Destination: Saturn
                 </div>
             </div>
         </div>
@@ -71,13 +71,12 @@ include_once 'nav.php';
     mywindow.document.write(document.getElementById(divId).innerHTML);
     mywindow.document.write('</body></html>');
     mywindow.document.close(); 
-    mywindow.focus();
+    mywindow.focus(); 
     mywindow.print();
     mywindow.close();
     return true;
         }
 </script>
-
 <?php
 include_once 'footer.php';
 ?>
