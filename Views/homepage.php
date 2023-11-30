@@ -149,7 +149,7 @@ include_once 'nav.php';
                 <img src="../Media/7157f4af-68b0-48d8-89c9-44c385666306.jpg" alt="Mercury" style="max-width: 100%;">
               </div>
               <div class="col-md-8">
-                <p>Like all the other planets, Mercury was likely formed in the large cloud of gas, dust and ice of the ancient solar system, which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.
+                <p class="text-light">Like all the other planets, Mercury was likely formed in the large cloud of gas, dust and ice of the ancient solar system, which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.
 
 Mercury is the closest planet to the Sun, which likely influenced its composition and formation. The planet has a surprisingly large iron core, which may have formed because the early Sun heated and vaporized rock on Mercury's surface.</p>
                 <div class="rating">
@@ -177,7 +177,7 @@ Mercury is the closest planet to the Sun, which likely influenced its compositio
                 <img src="../Media/e30a9c21-5453-4104-b7b8-f8b48206ecba.jpg" alt="Venus" style="max-width: 100%;">
               </div>
               <div class="col-md-8">
-                <p>Like all the other planets, Venus was likely formed in the large cloud of gas, dust, and ice of the ancient solar system, which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.
+                <p class="text-light" >Like all the other planets, Venus was likely formed in the large cloud of gas, dust, and ice of the ancient solar system, which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.
 
 Venus is the second closest planet to the Sun and is often called Earth's "sister planet" or "twin planet." Venus and Earth have very similar sizes, masses, and compositions, but are otherwise quite different from each other. Scientists think that in the early days of the solar system, Venus may have been similar to present-day Earth and may even have had liquid water on its surface.</p>
                 <div class="rating">
@@ -205,7 +205,7 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
                 <img src="../Media/5dc45098-a4cf-45fb-9d1c-1c57cf8d02ad.jpg" alt="Earth" style="max-width: 100%;">
               </div>
               <div class="col-md-8">
-                <p>Scientists believe it took between 10 and 20 million years for Earth to form. The solar system began as a large cloud of gas, dust, and ice that collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.</p>
+                <p class="text-light">Scientists believe it took between 10 and 20 million years for Earth to form. The solar system began as a large cloud of gas, dust, and ice that collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.</p>
                 
                 <div class="rating">
                   <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
@@ -234,7 +234,7 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
                 <img src="../Media/4272bcdf-c119-4b7e-91a3-890ddc89b039.jpg" alt="Mars" style="max-width: 100%;">
               </div>
               <div class="col-md-8">
-                <p>Mars is the fourth planet from the Sun in our solar system. Scientists believe that all of the planets were created just over 4.5 billion years ago. The solar system began as a large cloud of gas, dust, and ice, which collapsed into a spinning disc. The Sun was formed at its centre and particles began sticking together along rings in the disc – leading to the formation of the planets.
+                <p class="text-light">Mars is the fourth planet from the Sun in our solar system. Scientists believe that all of the planets were created just over 4.5 billion years ago. The solar system began as a large cloud of gas, dust, and ice, which collapsed into a spinning disc. The Sun was formed at its centre and particles began sticking together along rings in the disc – leading to the formation of the planets.
 
 </p>
                 <div class="rating">
@@ -262,7 +262,7 @@ Venus is the second closest planet to the Sun and is often called Earth's "siste
                 <img src="../Media/a14b9184-0517-458a-81f9-0987400beb05.jpg" alt="Jupiter" style="max-width: 100%;">
               </div>
               <div class="col-md-8">
-                <p>Jupiter is the fifth planet from the Sun and also the largest in our solar system. Like all the other planets, it was likely formed in a massive, ancient cloud of gas, dust, and ice that collapsed into a spinning disc.
+                <p class="text-light" >Jupiter is the fifth planet from the Sun and also the largest in our solar system. Like all the other planets, it was likely formed in a massive, ancient cloud of gas, dust, and ice that collapsed into a spinning disc.
 
 Scientists believe that many rocky planets larger than Earth existed in the early inner solar system. Physical forces moved Jupiter closer to the Sun and destroyed these other planets, allowing the formation of the current rocky planets (Mercury, Venus, Earth and Mars) before pushing Jupiter back outwards to its current position.
 
@@ -292,7 +292,7 @@ Jupiter has at least 79 known moons, which were drawn by the massive planet's st
                 <img src="../Media/ded28fed-ec42-4151-b665-46fa4ad6d1ed.jpg" alt="Saturn" style="max-width: 100%;">
             </div>
               <div class="col-md-8">
-                <p>Saturn is the sixth planet from the Sun and the second largest in our solar system. Like all the other planets, Saturn was likely formed in the large cloud of gas, dust, and ice which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc. Saturn is best known for its impressive rings, which are about 20 metres thick on average. Some scientists believe that the planet's icy rings are made of material left over from a massive collision between the young planet and one of its early moons.</p>
+                <p class="text-light">Saturn is the sixth planet from the Sun and the second largest in our solar system. Like all the other planets, Saturn was likely formed in the large cloud of gas, dust, and ice which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc. Saturn is best known for its impressive rings, which are about 20 metres thick on average. Some scientists believe that the planet's icy rings are made of material left over from a massive collision between the young planet and one of its early moons.</p>
                 <div class="rating">
                     <span>&#9733;&#9733;&#9733;&#9734;&#9734;</span>
                 </div>
