@@ -17,7 +17,7 @@ include_once 'nav.php';
           <h1 class="explore-heading">Explore Our Trips</h1>
         </div>
   </div>
-      <script src="js/starfield.js"></script>
+      <script src="../Js/starfield.js"></script>
       
   <div class="container mt-4">
 
@@ -29,7 +29,7 @@ include_once 'nav.php';
           <!-- Card 1 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img/DreamShaper_v7_8k_3d_20_yo_boy_teenager_standing_OlympusMonsES_1.jpg" class="card-img-top" alt="Trip 1 Image">
+              <img src="../Media/DreamShaper_v7_8k_3d_20_yo_boy_teenager_standing_OlympusMonsES_1.jpg" class="card-img-top" alt="Trip 1 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Olympus Monss</h5>
                 <p class="card-text">Olympus Mons, the highest point on the planet and the largest known volcano in the solar system.</p>
@@ -47,7 +47,7 @@ include_once 'nav.php';
           <!-- Card 2 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img\DreamShaper_v7_Chilean_lake_realistic_travelling_between_pla_0.jpg" class="card-img-top" alt="Trip 2 Image">
+              <img src="../Media/DreamShaper_v7_Chilean_lake_realistic_travelling_between_pla_0.jpg" class="card-img-top" alt="Trip 2 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Lakes of Titan</h5>
                 <p class="card-text">Lakes of ethane and methane on Titan, Saturn's largest moon.</p>
@@ -65,7 +65,7 @@ include_once 'nav.php';
           <!-- Card 3 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img/Absolute_Reality_v16_Valles_MarinerisValles_Marineris_is_a_vas_0.jpg" class="card-img-top" alt="Trip 3 Image">
+              <img src="../Media/Absolute_Reality_v16_Valles_MarinerisValles_Marineris_is_a_vas_0.jpg" class="card-img-top" alt="Trip 3 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Valles Marineris</h5>
                 <p class="card-text"> is a vast canyon system on Mars, stretching over 2,500 miles (4,000 km) long, up to 7 miles (11 km) deep.</p>
@@ -85,7 +85,7 @@ include_once 'nav.php';
           <!-- Card 1 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img/DreamShaper_v7_Ancient_lava_flowsrealistic_travelling_betwee_2.jpg" class="card-img-top" alt="Trip 1 Image">
+              <img src="../Media/DreamShaper_v7_Ancient_lava_flowsrealistic_travelling_betwee_2.jpg" class="card-img-top" alt="Trip 1 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Ancient lava flowsrealistic</h5>
                 <p class="card-text">Two distinct volcanic eruptions have flooded this area of Daedalia Planum with lava, flowing around an elevated fragment of ancient terrain.</p>
@@ -103,7 +103,7 @@ include_once 'nav.php';
           <!-- Card 2 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img/DreamShaper_v7_Icy_Moon_of_JupiterEuropa_is_one_of_Jupiters_la_1.jpg" class="card-img-top" alt="Trip 2 Image">
+              <img src="../Media/DreamShaper_v7_Icy_Moon_of_JupiterEuropa_is_one_of_Jupiters_la_1.jpg" class="card-img-top" alt="Trip 2 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Icy Moon of Jupiter</h5>
                 <p class="card-text">Europa is one of Jupiter's largest moons and is unique due to its icy surface. Beneath this icy shell is believed to be a subsurface ocean.</p>
@@ -121,7 +121,7 @@ include_once 'nav.php';
           <!-- Card 3 --> 
        <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img\DreamShaper_v7_VallesMarinerisNASAWorldWindmapMars_travelling_3.jpg" class="card-img-top" alt="Trip 3 Image">
+              <img src="../Media/DreamShaper_v7_VallesMarinerisNASAWorldWindmapMars_travelling_3.jpg" class="card-img-top" alt="Trip 3 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Train through Valles Marineris</h5>
                 <p class="card-text">A Train tour through the deepest valley on mars.</p>
@@ -141,7 +141,7 @@ include_once 'nav.php';
           <!-- Card 1 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img\DreamShaper_v7_VallesMarinerisNASAWorldWindmapMars_travelling_0.jpg" class="card-img-top" alt="Trip 1 Image">
+              <img src="../Media/DreamShaper_v7_VallesMarinerisNASAWorldWindmapMars_travelling_0.jpg" class="card-img-top" alt="Trip 1 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Valles Marineris</h5>
                 <p class="card-text">Olympus Mons, the highest point on the planet and the largest known volcano in the solar system vast canyon system on Mars, stretching over 2,500 miles (4,000 km) long, up to 7 miles (11 km) deep.</p>
@@ -159,7 +159,7 @@ include_once 'nav.php';
           <!-- Card 2 -->
           <div class="col-lg-4 col-md-6 mb-4" style="backdrop-filter: blur(15px) ; background:trasperant !important;z-index: -1; ">
             <div class="card small-card h-100">
-              <img src="img/DreamShaper_v7_Chilean_lake_realistic_travelling_between_pla_1.jpg" class="card-img-top" alt="Trip 2 Image">
+              <img src="../Media/DreamShaper_v7_Chilean_lake_realistic_travelling_between_pla_1.jpg" class="card-img-top" alt="Trip 2 Image">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Lakes of Titan</h5>
                 <p class="card-text">Lakes of ethane and methane on Titan, Saturn's largest moon.</p>
@@ -179,7 +179,7 @@ include_once 'nav.php';
       
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card small-card h-100">
-              <img src="img/3D_Animation_Style_Nebula_TourismPlan_a_trip_to_explore_colorf_0 (1).jpg"class="card-img-top" alt="Trip 3 Image" >
+              <img src="../Media/3D_Animation_Style_Nebula_TourismPlan_a_trip_to_explore_colorf_0 (1).jpg"class="card-img-top" alt="Trip 3 Image" >
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Nebula TourismPlan</h5>
                 <p class="card-text"> Create destinations within these vast clouds of gas and dust, where travelers can witness spectacular light shows and study unique celestial phenomena.</p>
@@ -254,7 +254,7 @@ include_once 'nav.php';
 <!-- Include Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<script src="js/booking.js"></script>
+<script src="../Js/booking.js"></script>
 </body>
 <?php
 include_once 'footer.php';
